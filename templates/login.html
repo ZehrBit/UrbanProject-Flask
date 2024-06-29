@@ -1,0 +1,8 @@
+<h2>Вход</h2>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    Имя пользователя: {{ form.username() }}<br>
+    Пароль {{ form.password() }}<br>
+    {{ form.submit() }}
+</form>
+<a href="/register">Регистрация</a>
